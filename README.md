@@ -9,7 +9,7 @@ This project has the following routes:
 - base_url/api/jobs/?title=something&location=something&category=something (`GET http method`)
 ### WEB Routes
 - base_url/ (`Landing page to access job search form`)
-- base_url/jobs (`GET route to submit search form data and return response`)
+- base_url/jobs (`GET route to submit search form data, call API endpoint and return response`)
 ## Run Locally
 To run this project Locally, you will need an environment set up to run laravel powered apps. You can checkout how to here - https://gist.github.com/tooinfinity/1e05c33248bc7c7f228b38510ec7298a
 You only need to perform steps 1-2 since you will be cloning an existing app.
